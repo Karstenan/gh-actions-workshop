@@ -43,7 +43,7 @@ jobs:
     - name: Test
       run: npm run test
 
-post-comment:
+  post-comment:
     runs-on: ubuntu-latest
     permissions:
       pull-requests: write
